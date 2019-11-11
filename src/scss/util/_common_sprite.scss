@@ -1,0 +1,226 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-biscuit-name: 'icon_biscuit';
+$icon-biscuit-x: 0px;
+$icon-biscuit-y: 0px;
+$icon-biscuit-offset-x: 0px;
+$icon-biscuit-offset-y: 0px;
+$icon-biscuit-width: 32px;
+$icon-biscuit-height: 32px;
+$icon-biscuit-total-width: 64px;
+$icon-biscuit-total-height: 64px;
+$icon-biscuit-image: '/images/common_sprite.png';
+$icon-biscuit: (0px, 0px, 0px, 0px, 32px, 32px, 64px, 64px, '/images/common_sprite.png', 'icon_biscuit', );
+$icon-cake-name: 'icon_cake';
+$icon-cake-x: 32px;
+$icon-cake-y: 0px;
+$icon-cake-offset-x: -32px;
+$icon-cake-offset-y: 0px;
+$icon-cake-width: 32px;
+$icon-cake-height: 32px;
+$icon-cake-total-width: 64px;
+$icon-cake-total-height: 64px;
+$icon-cake-image: '/images/common_sprite.png';
+$icon-cake: (32px, 0px, -32px, 0px, 32px, 32px, 64px, 64px, '/images/common_sprite.png', 'icon_cake', );
+$icon-soda-name: 'icon_soda';
+$icon-soda-x: 0px;
+$icon-soda-y: 32px;
+$icon-soda-offset-x: 0px;
+$icon-soda-offset-y: -32px;
+$icon-soda-width: 32px;
+$icon-soda-height: 32px;
+$icon-soda-total-width: 64px;
+$icon-soda-total-height: 64px;
+$icon-soda-image: '/images/common_sprite.png';
+$icon-soda: (0px, 32px, 0px, -32px, 32px, 32px, 64px, 64px, '/images/common_sprite.png', 'icon_soda', );
+$icon-tea-name: 'icon_tea';
+$icon-tea-x: 32px;
+$icon-tea-y: 32px;
+$icon-tea-offset-x: -32px;
+$icon-tea-offset-y: -32px;
+$icon-tea-width: 32px;
+$icon-tea-height: 32px;
+$icon-tea-total-width: 64px;
+$icon-tea-total-height: 64px;
+$icon-tea-image: '/images/common_sprite.png';
+$icon-tea: (32px, 32px, -32px, -32px, 32px, 32px, 64px, 64px, '/images/common_sprite.png', 'icon_tea', );
+$retina-icon-biscuit-name: 'retina_icon_biscuit';
+$retina-icon-biscuit-x: 0px;
+$retina-icon-biscuit-y: 0px;
+$retina-icon-biscuit-offset-x: 0px;
+$retina-icon-biscuit-offset-y: 0px;
+$retina-icon-biscuit-width: 32px;
+$retina-icon-biscuit-height: 32px;
+$retina-icon-biscuit-total-width: 64px;
+$retina-icon-biscuit-total-height: 64px;
+$retina-icon-biscuit-image: '/images/common_sprite@2x.png';
+$retina-icon-biscuit: (0px, 0px, 0px, 0px, 32px, 32px, 64px, 64px, '/images/common_sprite@2x.png', 'retina_icon_biscuit', );
+$retina-icon-cake-name: 'retina_icon_cake';
+$retina-icon-cake-x: 32px;
+$retina-icon-cake-y: 0px;
+$retina-icon-cake-offset-x: -32px;
+$retina-icon-cake-offset-y: 0px;
+$retina-icon-cake-width: 32px;
+$retina-icon-cake-height: 32px;
+$retina-icon-cake-total-width: 64px;
+$retina-icon-cake-total-height: 64px;
+$retina-icon-cake-image: '/images/common_sprite@2x.png';
+$retina-icon-cake: (32px, 0px, -32px, 0px, 32px, 32px, 64px, 64px, '/images/common_sprite@2x.png', 'retina_icon_cake', );
+$retina-icon-soda-name: 'retina_icon_soda';
+$retina-icon-soda-x: 0px;
+$retina-icon-soda-y: 32px;
+$retina-icon-soda-offset-x: 0px;
+$retina-icon-soda-offset-y: -32px;
+$retina-icon-soda-width: 32px;
+$retina-icon-soda-height: 32px;
+$retina-icon-soda-total-width: 64px;
+$retina-icon-soda-total-height: 64px;
+$retina-icon-soda-image: '/images/common_sprite@2x.png';
+$retina-icon-soda: (0px, 32px, 0px, -32px, 32px, 32px, 64px, 64px, '/images/common_sprite@2x.png', 'retina_icon_soda', );
+$retina-icon-tea-name: 'retina_icon_tea';
+$retina-icon-tea-x: 32px;
+$retina-icon-tea-y: 32px;
+$retina-icon-tea-offset-x: -32px;
+$retina-icon-tea-offset-y: -32px;
+$retina-icon-tea-width: 32px;
+$retina-icon-tea-height: 32px;
+$retina-icon-tea-total-width: 64px;
+$retina-icon-tea-total-height: 64px;
+$retina-icon-tea-image: '/images/common_sprite@2x.png';
+$retina-icon-tea: (32px, 32px, -32px, -32px, 32px, 32px, 64px, 64px, '/images/common_sprite@2x.png', 'retina_icon_tea', );
+$spritesheet-width: 64px;
+$spritesheet-height: 64px;
+$spritesheet-image: '/images/common_sprite.png';
+$spritesheet-sprites: ($icon-biscuit, $icon-cake, $icon-soda, $icon-tea, );
+$spritesheet: (64px, 64px, '/images/common_sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 64px;
+$retina-spritesheet-height: 64px;
+$retina-spritesheet-image: '/images/common_sprite@2x.png';
+$retina-spritesheet-sprites: ($retina-icon-biscuit, $retina-icon-cake, $retina-icon-soda, $retina-icon-tea, );
+$retina-spritesheet: (64px, 64px, '/images/common_sprite@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$icon-biscuit-group-name: 'icon_biscuit';
+$icon-biscuit-group: ('icon_biscuit', $icon-biscuit, $retina-icon-biscuit, );
+$icon-cake-group-name: 'icon_cake';
+$icon-cake-group: ('icon_cake', $icon-cake, $retina-icon-cake, );
+$icon-soda-group-name: 'icon_soda';
+$icon-soda-group: ('icon_soda', $icon-soda, $retina-icon-soda, );
+$icon-tea-group-name: 'icon_tea';
+$icon-tea-group: ('icon_tea', $icon-tea, $retina-icon-tea, );
+$retina-groups: ($icon-biscuit-group, $icon-cake-group, $icon-soda-group, $icon-tea-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

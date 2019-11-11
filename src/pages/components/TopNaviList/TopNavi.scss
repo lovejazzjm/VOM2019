@@ -1,0 +1,26 @@
+
+header.topNavi {
+
+    ul {
+      margin: 5px;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { 
+        display: inline-block;
+        padding: 0px 5px;
+    }
+  
+    a {
+      display: block;
+      padding: 0px;
+      text-decoration: underline;
+      color:#000;
+      font-weight: bold;
+    }
+
+    a.select {
+      color:red;
+    }
+  }

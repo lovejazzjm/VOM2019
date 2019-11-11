@@ -1,0 +1,30 @@
+@charset "utf-8";
+/************************************************************************
+ * filename : base.scss
+ * description : 기본공통 SCSS
+ * date : 2019.10.31
+************************************************************************/
+
+@import './util/_fonts.scss';
+@import './util/_reset.scss';
+@import './util/_variables.scss';
+@import './util/_common_sprite.scss';
+@import './util/_mixin.scss';
+
+@import './components/Badge.scss';
+@import './components/Button.scss';
+@import './components/Icon.scss';
+@import './components/Form.scss';
+@import './components/Layout.scss';
+@import './components/Pagenation.scss';
+@import './components/Spinner.scss';
+@import './components/Table.scss';
+
+/* util */
+.blind {
+  @include sr-only();
+}
+
+.blind-focusable {
+  @include sr-only-focusable();
+}

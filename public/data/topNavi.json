@@ -1,0 +1,8 @@
+{
+  "result": {
+    "index": ["/index.html"],
+    "main": ["/main/main.html?sideNaviId=0/0/0"],
+    "about": ["/about/about.html"],
+    "guide": ["/guide/guide.html"]
+  }
+}

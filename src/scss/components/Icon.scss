@@ -1,0 +1,27 @@
+@charset "utf-8";
+/************************************************************************
+ * filename : Icon.scss
+ * description : Icon Coponent SCSS
+ * date : 2019.10.31
+************************************************************************/
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  &_cake {
+    @include sprite($icon-cake);
+  }
+
+  &_biscuit {
+    @include sprite($icon-biscuit);
+  }
+
+  &_soda {
+    @include sprite($icon-soda);
+  }
+
+  &_tea {
+    @include sprite($icon-tea);
+  }
+}

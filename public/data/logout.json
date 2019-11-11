@@ -1,0 +1,9 @@
+{
+	"result" : {
+        "userName" : "김두일",
+        "userId" : "dududu1"
+    },
+    "error":{
+        "msg":"로그아웃 불가. ^^"
+    }	
+}

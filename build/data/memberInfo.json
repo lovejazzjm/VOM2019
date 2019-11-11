@@ -1,0 +1,27 @@
+{
+	"result" : {
+		"data" : [
+            {"name":"김두일", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발2그룹", "jobGrade":"수석", "baseJob":"관리", "projectPosition":"디렉터", "businessType":"기타", "state":"근무중"},
+            {"name":"최승준", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"사원", "baseJob":"프론트엔드개발", "projectPosition":"팀원", "businessType":"운영", "state":"근무중"},
+            {"name":"최진혁", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"수석", "baseJob":"관리", "projectPosition":"해당없음", "businessType":"구축", "state":"근무중"},
+            {"name":"나애영", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"사원", "baseJob":"프론트엔드개발", "projectPosition":"팀원", "businessType":"구축", "state":"근무중"},
+            {"name":"정은선", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"선임", "baseJob":"프론트엔드개발", "projectPosition":"팀원", "businessType":"구축", "state":"근무중"},
+            {"name":"채경희", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"수석", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"구축", "state":"근무중"},
+            {"name":"황보선", "oneDepartment":"기술개발본부", "twoDepartment":"기술개발본부", "jobGrade":"수석", "baseJob":"관리", "projectPosition":"디렉터", "businessType":"기타", "state":"근무중"},
+            {"name":"서영교", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"책임", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"운영", "state":"근무중"},
+            {"name":"박기완", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"선임", "baseJob":"프론트엔드개발", "projectPosition":"팀원", "businessType":"구축", "state":"근무중"},
+            {"name":"이승찬", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"선임", "baseJob":"프론트엔드개발", "projectPosition":"팀원", "businessType":"운영", "state":"근무중"},
+            {"name":"주진용", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발2그룹", "jobGrade":"책임", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"구축", "state":"근무중"},
+            {"name":"이정민", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"책임", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"운영", "state":"근무중"},
+            {"name":"강태진", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발2그룹", "jobGrade":"수석", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"운영", "state":"근무중"},
+            {"name":"박종민", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발2그룹", "jobGrade":"수석", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"운영", "state":"근무중"},
+            {"name":"임동구", "oneDepartment":"기술개발본부", "twoDepartment":"프론트앤드개발1그룹", "jobGrade":"책임", "baseJob":"프론트엔드개발", "projectPosition":"PL", "businessType":"운영", "state":"근무중"},
+            {"name":"남기욱", "oneDepartment":"기술개발본부", "twoDepartment":"백앤드개발그룹", "jobGrade":"수석", "baseJob":"백엔드개발", "projectPosition":"PL", "businessType":"구축", "state":"근무중"},
+            {"name":"이정우", "oneDepartment":"기술개발본부", "twoDepartment":"백앤드개발그룹", "jobGrade":"책임", "baseJob":"백엔드개발", "projectPosition":"PL", "businessType":"구축", "state":"근무중"},
+            {"name":"정승우", "oneDepartment":"기술개발본부", "twoDepartment":"백앤드개발그룹", "jobGrade":"책임", "baseJob":"백엔드개발", "projectPosition":"팀원", "businessType":"구축", "state":"근무중"},
+            {"name":"김남규", "oneDepartment":"기술개발본부", "twoDepartment":"백앤드개발그룹", "jobGrade":"책임", "baseJob":"백엔드개발", "projectPosition":"팀원", "businessType":"구축", "state":"근무중"},
+            {"name":"박봉일", "oneDepartment":"기술개발본부", "twoDepartment":"백앤드개발그룹", "jobGrade":"수석", "baseJob":"관리", "projectPosition":"디렉터", "businessType":"기타", "state":"근무중"}
+
+        ]
+	}
+}

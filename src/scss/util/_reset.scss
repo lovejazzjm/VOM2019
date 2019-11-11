@@ -1,0 +1,99 @@
+@charset "utf-8";
+/************************************************************************
+ * filename : reset.scss
+ * description : 초기화 SCSS
+ * date : 2019.10.31
+************************************************************************/
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 12px;
+  font-family: Arial, 'NanumBarunGothic', '돋음'; // Regular(400), Bold(700), Light(300), Ultra Light(200);
+  line-height: 24px;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h {
+
+  &1,
+  &2,
+  &3,
+  &4,
+  &5,
+  &6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+  &:active {
+    outline: none;
+    color: inherit;
+  }
+}
+
+button {
+  -webkit-appearance: none;
+  outline: none;
+}
+
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+
+ul,
+ol,
+dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+dt,
+dd,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
